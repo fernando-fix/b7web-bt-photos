@@ -18,7 +18,7 @@ form_buscar_fotos.addEventListener('submit', function (e) {
                 listar_fotos.innerHTML += `
                     <div class="col-md-4">
                         <div class="card mb-3">
-                            <img src="${foto.thumbnailUrl}" class="card-img-top" alt="${foto.title}">
+                            <img src="${foto.thumbnailUrl}" class="skeleton card-img-top" alt="${foto.title}">
                             <div class="card-body">
                                 <h5 class="card-title">${foto.title}</h5>
                             </div>
@@ -26,6 +26,7 @@ form_buscar_fotos.addEventListener('submit', function (e) {
                     </div>
                 `;
             });
+            new SkeletonLoader();
         });
 });
 
