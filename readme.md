@@ -40,3 +40,8 @@ Este projeto está licenciado sob a Licença MIT. Isso significa que você pode 
 ## Autor
 
 - [@fernando-fix](https://www.github.com/fernando-fix)
+
+## Acesso ao projeto
+
+- [Repositório GitHub](https://github.com/fernando-fix/b7web-bt-photos)
+- [Acesso ao projeto](https://fernando-fix.github.io/b7web-bt-photos/)
